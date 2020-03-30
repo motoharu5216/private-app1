@@ -1,0 +1,5 @@
+{
+  "name": "private-app1",
+  "private": true,
+  "dependencies": {}
+}
