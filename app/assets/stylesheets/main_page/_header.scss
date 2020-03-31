@@ -1,0 +1,23 @@
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: lightcyan;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    margin-left: 50px;
+    p {
+      font-size: large;
+      font-weight: bold;
+    }
+  }
+  &__info {
+    margin-right: 50px;
+    .btn {
+      padding: 20px;
+      border: 1px solid;
+      text-decoration: none;
+    }
+  }
+}
