@@ -1,0 +1,32 @@
+.body {
+  height: calc(100vh - 200px);
+  width: 50%;
+  margin: auto;
+  background-color: linen;
+  &__group {
+    height: 40px;
+    display: flex;
+    background-color: lightyellow;
+    &__tag {
+      height: 40px;
+      width: auto;
+      line-height: 40px;
+      padding: 0 10px;
+      border-top: 1px solid lightblue;
+      border-right: 1px solid lightblue;
+      background-color: lemonchiffon;
+    }
+  }
+  &__list {
+    background-color: lightgray;
+    &__box {
+      height: 40px;
+      line-height: 40px;
+      overflow: hidden;
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      background-color: lightgreen;
+    }
+  }
+}

@@ -3,7 +3,8 @@
 ## userテーブル
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false|
+|nickname|string|null: false|
+|email|string|null: false|
 |password|string|null: false|
 
 ### Association
@@ -14,7 +15,6 @@
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
-|password|string|null: false|
 
 ### Association
 - has_many :items

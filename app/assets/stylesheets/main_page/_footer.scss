@@ -1,0 +1,19 @@
+.footer {
+  height: 100px;
+  width: 50%;
+  margin: auto;
+  background-color: lightseagreen;
+  &__box {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    &__serch {
+      width: 200px;
+      height: 30px;
+    }
+    &__serch-btn {
+      height: 30px;
+      width: 60px;
+    }
+  }
+}
